@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div id="left">
+            <button>
+                <picture class="menu">
+                    <img src="Imagens/menu.png" width="18px" height="20px" alt="Logo do site"/>
+                </picture>
+            </button>   
+
+            <button>
+                <picture class="logo">
+                    <img src="Imagens/Youtube logo.png" width="90px" height="20px" alt="Logo do site"/>
+                </picture>
+            </button>
+        </div>
+
+        <div id="center">
+            <form action="/submit">
+                <textarea id="message" name="message" rows="1"></textarea>
+                <button>
+                    <img src="Imagens/search.png" width="16px" height="20px" alt="Icone de pesquisar"/>
+                </button>
+            </form>
+        </div>
+
+        <div id="right">
+            <button>
+                <picture class="menu">
+                    <img src="Imagens/video.png" width="24px" height="24px" alt="Video"/>
+                </picture> 
+            </button>
+
+            <button>
+                <picture class="menu">
+                    <img src="Imagens/notification.png" width="24px" height="24px" alt="Notificação"/>
+                </picture> 
+            </button>
+
+            <button>
+                <picture class="menu">
+                    <img src="Imagens/user.png" width="24px" height="24px" alt="Logo do site"/>
+                </picture> 
+            </button>
+        </div>
+    </header>
+    <section class="main">
+        <div>
+            <picture class="video">
+                <img src="Imagens/Dio.me.png" width="870px" height="537px" alt="Logo do site"/>
+            </picture>
+            <p id="nomeVideo"> Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</p>
+           
+            <div id="informacaoCanal">
+                <div id="canal">
+                    <button id="dioCanal"></button>
+                    <button id="dioCanalTexto">DIO <br><span id="qntInscritos">83,3 mil inscritos</span></button>
+                </div>
+                    <button id ="INSCREVA-SE"width="159px" height="40px">INSCREVA-SE</button>
+                    <button id="like">
+                        <img src="Imagens/like.png" width="24px" height="24px" alt="Botão do like">
+                        <span>2 mil</span>
+                    </button>
+                    <button id="dislike">
+                        <img src="Imagens/dislike.png" width="24px" height="24px" alt="Botão de dislike">
+                        <span>Não gostei</span>
+                    </button>
+                    <button id="compartilhar">
+                        <img src="Imagens/compartilhar.png" width="24px" height="24px" alt="Compartilhar">
+                        <span>Compartilhar</span>
+                    </button>
+                    <button id="download">
+                        <img src="Imagens/download.png" width="24px" height="24px" alt="Download">
+                        <span>Download</span>
+                    </button>
+            </div>
+            <div id="infAdicionais">
+                <p id="qntVisualizacao">
+                    28.418 visualizações Transmitido ao vivo em 23 ago. de 2022  
+                </p>
+                <p id="descricao">
+                    Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.
+                </p>
+            </div>
+        </div>
+        <section class="sidebar">
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar1.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar2.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Scrum Talks</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar3.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Machine Learning Avançado - Fast Track</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar4.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Global Skills #2 - Project Planning</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>971 visualizações Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar5.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Global Skills #2 - Project Planning</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>711 visualizações Transmitido há 6 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar1.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações Transmitido há 2 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar2.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Scrum Talks</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações Transmitido há 3 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar3.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Machine Learning Avançado - Fast Track</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações Transmitido há 4 dias</p>
+                    </div>
+                </div>
+            </ul>
+            <ul>
+                <picture class="menu">
+                    <img src="Imagens/sidebar4.png" width="160px" height="90px" alt="Logo do site"/>
+                </picture>
+                <div class="Informacao">
+                    <p>Global Skills #2 - Project Planning</p>
+                    <div class="Informacao2">
+                        <p>DigitalInnovationOne</p>
+                        <p>971 visualizações Transmitido há 5 dias</p>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </section>    
+</body>
+</html>

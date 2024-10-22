@@ -1,0 +1,316 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-left: 15px;
+}
+
+#left{
+    margin: 10px;
+}
+
+#left button{
+    margin-right: 15px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+#left button img{
+    margin-right: 20px;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+}
+
+#center textarea{
+    height: 20px;
+    padding: 10;
+    margin: 0;
+}
+
+#center button{
+    height: 44px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form textarea{
+    width: 348px;
+    height: 20px;
+    align-items: center;
+    resize: none;
+    margin: 0;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    border-right: 0;
+}
+
+form img{
+    height: 20px;
+    background-color: #F8F8F8;
+    border-left: 2px;
+    border: 2px solid #CCCCCC;
+    padding: 10px;
+    margin: 0;
+}
+
+#right button{
+    height: 44px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+#right button img{
+    margin-right: 20px;
+}
+
+
+body{
+    background-color: #F8F8F8;
+    margin: 0px;
+}
+
+.main{
+    width: 100%;
+    max-width: 952px;
+    height: 746px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video{
+    flex: 2;
+    margin-right: 20px;
+}
+
+.video img{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#nomeVideo {
+    width: 870px;
+    height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+#informacaoCanal {
+    display: flex;
+    margin-left: 0%;
+    justify-content: space-between;
+    
+}
+
+#canal{
+    display: flex;
+}
+
+#informacaoCanal button {
+    margin: 5px;
+    border: none;
+    height: 42px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#like{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#dislike{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#compartilhar{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#download{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#download span, #compartilhar span, #like span, #dislike span {
+    margin: 10px;
+}
+
+#dioCanalTexto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    text-align: left;
+}
+
+#qntInscritos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    text-align: left;
+}
+
+#INSCREVA-SE{
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#dioCanal {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-image: url(Imagens/dioCanal.jpg);
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+ul picture{
+    padding: 0;
+}
+
+#infAdicionais{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#qntVisualizacao{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: 391px;
+    height: 16px;
+}
+
+#descricao{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 510px;
+    height: 64px
+}
+
+.Informacao{
+    width: 196px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0%;
+}
+
+.Informacao p{
+    margin: 0%;
+    margin-left: 5px;
+}
+
+.Informacao2{
+    width: 196px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Informacao2 p{
+    margin: 5px;
+}
+
+.sidebar{
+    flex: 1;
+    margin-left: 30px;
+}
